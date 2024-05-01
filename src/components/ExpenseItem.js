@@ -1,11 +1,13 @@
-function ExpenseItem(){
-    return(
+function ExpenseItem() {
+  return (
+    <div>
+      <div>15 August 2023</div>
+      <div>Delhi</div>
       <div>
-        <p>Food-$5</p>
-        <p>Petrol-$20</p>
-        <p>Movie-$10</p>
+        <h2>Book</h2>
+        <div>$10</div>
       </div>
-    );
-  }
-   
-  export default ExpenseItem;
+    </div>
+  );
+}
+export default ExpenseItem;
